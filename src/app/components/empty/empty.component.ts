@@ -1,7 +1,7 @@
 import { MatButton } from '@angular/material';
 import { Component, ViewChild, AfterViewInit } from '@angular/core';
 import { fromEvent, empty, of } from 'rxjs';
-import { switchMap, tap, finalize } from 'rxjs/operators';
+import { switchMap, tap } from 'rxjs/operators';
 
 @Component({
   selector: 'app-empty',
