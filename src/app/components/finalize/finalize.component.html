@@ -1,0 +1,6 @@
+<div class="padding">
+  <h3>finalize</h3>
+  <div *ngIf="!cargando">TODO: <strong>{{todo.title}}</strong></div>
+
+  <mat-progress-spinner *ngIf="cargando" [color]="primary" mode="indeterminate"></mat-progress-spinner>
+</div>
